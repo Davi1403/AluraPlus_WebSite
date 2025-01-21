@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --primary-withe: #FFFFFF;
+    --secundary-grey: #C0C0C0;
+    --button-blue: #167BF7;
+    --background: #00030C;
+
+    --primary-font : "Inter", serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: var(--background);
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--primary-withe);
+    font-size: 1rem;
+
+}
+
+.apresentation{
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__title{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__button{
+    background-color: var(--button-blue);
+    text-decoration: none;
+    border-radius: 8px;
+
+    color: var(--primary-withe);
+    padding: 1% 5%;
+    display: block;
+    text-align: center;
+    
+}
+
+.secundary_button{
+    background-color: transparent;
+    border: 2px solid var(--primary-withe);
+}
+
+.container__warning{
+    color: var(--secundary-grey);
+    font-size: 0.75rem;
+}
