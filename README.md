@@ -1,5 +1,3 @@
-This website is a project developed in the course 'HTML and CSS: Practicing HTML/CSS' from Alura.
-
 # AluraPlus exemple Website
 
 ## Overview
