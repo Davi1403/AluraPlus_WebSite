@@ -28,6 +28,8 @@ body{
     background-image: url("/assets/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container{
@@ -36,20 +38,34 @@ body{
     grid-template-columns: 50% 50%;
 }
 
+.container__description{
+    padding: 4em;
+}
+
+.container__div{
+    margin: 12em;
+}
+
 .container__title{
     font-size: 1.75rem;
-    font-weight: 700;
+    font-weight: 700            ;
+}
+
+.container__image{
+    margin: 1em 0 2em 0;
 }
 
 .container__button{
     background-color: var(--button-blue);
     text-decoration: none;
     border-radius: 8px;
+    margin-bottom: 1em;
 
     color: var(--primary-withe);
-    padding: 1% 5%;
+    padding: 1em;
     display: block;
     text-align: center;
+
     
 }
 
@@ -61,4 +77,82 @@ body{
 .container__warning{
     color: var(--secundary-grey);
     font-size: 0.75rem;
+}
+
+.secundary{
+    align-items: center;
+    margin: 0 15em;
+}
+
+.secundary__image{
+    width: 80%;
+}
+
+.description__title, .devices__title{
+    font-size: 3rem;
+    margin-bottom: 0.1em;
+    font-weight: 700;
+}
+
+.description__text{
+    color: var(--secundary-grey);
+}
+
+.small_button{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.devices{
+    margin: 0 15em;
+    height: 100vh;
+}
+
+.devices__title{
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.devices__icons{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.devices__icons__image{
+    width: 100%;
+}
+
+.devices__icons__text{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--secundary-grey);
+    font-size: 0.875rem;
+    margin: 0 20em 6em 20em;;
+}
+
+.footer__list{
+    display:flex;
+    list-style-type: none;
+    gap: 2em;
+    justify-content: center;
+    margin: 2em 0;
+}
+
+.list__link{
+    text-decoration: none;
+    color: var(--primary-withe);
+    font-size: 1rem;
+}
+
+.footer__text{
+    margin-bottom: 2em;
 }
