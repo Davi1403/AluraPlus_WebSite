@@ -25,7 +25,7 @@
     }
 
     .apresentation{
-        background-image: url("/assets/Background.png");
+        background-image: url("../assets/Background.png");
         background-repeat: no-repeat;
         background-size: contain;
         align-items: center;
@@ -36,6 +36,7 @@
         min-height: 100vh;
         display: grid;
         grid-template-columns: 50% 50%;
+        
     }
 
     .container__description{
@@ -44,6 +45,7 @@
 
     .container__div{
         margin: 12em;
+
     }
 
     .container__title{
@@ -53,6 +55,7 @@
 
     .container__image{
         margin: 1em 0 2em 0;
+        width: 80%;
     }
 
     .container__button{
@@ -173,14 +176,17 @@
 
         .container{
             display: flex;
+            flex-direction: column;
+            margin: 10em 2em;
+            min-height: auto;
         }
 
         .container__div{
-            margin: 2em;
+            margin: 0;
         }
 
         .secundary{
-            margin: 2em;
+            margin: 10em 2em;
             display: flex;
             flex-direction: column-reverse;
         }
@@ -194,7 +200,7 @@
         }
         
         .devices{
-            margin: 25em 2em 25em 2em;
+            margin: 10em 2em;
         }
 
         .devices__icons, .footer__list{
@@ -203,7 +209,7 @@
         }
 
         footer{
-            margin: 2em;
+            margin: 10em 2em;
         }
     
     }
